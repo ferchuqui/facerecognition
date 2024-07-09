@@ -41,7 +41,7 @@ while cap.isOpened():
     # Mostrar la imagen con los puntos clave de la cara detectados
     cv2.imshow('Puntos clave de la cara detectados', frame)
 
-    # Salir del bucle si se presiona la tecla 'q'
+    # Salir del bucle si se presiona  la tecla 'q'
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
